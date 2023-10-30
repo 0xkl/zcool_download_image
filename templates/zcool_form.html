@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>站酷下载</title>
+</head>
+<body>
+    <h1>站酷下载表单</h1>
+    <form method="POST" action="/zcool">
+        <label for="zcool_url">请输入站酷链接：</label>
+        <input type="text" id="zcool_url" name="zcool_url" required>
+        <br>
+        <p>who?：</p>
+        <input type="radio" id="xiaoma" name="zcool_name" value="小马">
+        <label for="xiaoma">小马</label>
+        <br>
+        <input type="radio" id="haimian" name="zcool_name" value="海绵">
+        <label for="haimian">海绵</label>
+        <br>
+        <input type="radio" id="qie" name="zcool_name" value="企鹅">
+        <label for="qie">企鹅</label>
+        <br>
+        <input type="submit" value="下载">
+    </form>
+</body>
+</html>

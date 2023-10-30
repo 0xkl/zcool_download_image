@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小红书下载</title>
+</head>
+<body>
+    <h1>小红书下载表单</h1>
+    <form method="POST" action="/xhs">
+        <label for="xhs_url">请输入小红书链接：</label>
+        <input type="text" id="xhs_url" name="xhs_url" required>
+        <!-- 自用
+        <br>
+        <label for="user_id">用户ID:</label>
+        <input type="text" id="user_id" name="xhs_user_id" required>
+        <br>
+        -->
+        <p>who?：</p>
+        <input type="radio" id="xiaoma" name="xhs_name" value="小马">
+        <label for="xiaoma">小马</label>
+        <br>
+        <input type="radio" id="haimian" name="xhs_name" value="海绵">
+        <label for="haimian">海绵</label>
+        <br>
+        <input type="radio" id="qie" name="xhs_name" value="企鹅">
+        <label for="qie">企鹅</label>
+        <br>
+        
+        <input type="submit" value="下载">
+    </form>
+</body>
+</html>
